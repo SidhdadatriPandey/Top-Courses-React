@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  color: white;
+}
+
+.nav-parent{
+  width: 100vw;
+  height: 39px;
+  position: fixed;
+  background-color: rgb(25, 25, 49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.filter-parent{
+  width: 100vw;
+  height: 39px;
+  position: relative;
+  top: 45px;
+  background-color: rgb(43, 43, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .9rem;
+  font-size: 1rem;
+}
+
+.btn{
+  background-color: white;
+ height: 70%;
+ width: 90px;
+ font-size: .8rem;
+ overflow: hidden;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .35rem;
+}
+
+.selected-btn{
+  background-color: rgb(186, 132, 132);
+ height: 70%;
+ width: 90px;
+ font-size: .8rem;
+ overflow: hidden;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .35rem;
+}
+
+.cards-parent{
+width: 100vw;
+display: flex;
+justify-content: center;
+}
+
+.cards{
+  width: 80vw;
+  flex-wrap: wrap;
+  position: relative;
+  top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card{
+  height: 475px;
+  width: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid brown;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card-image{
+  height: 250px;
+  width: 350px;;
+}
+
+.like-btn{
+  /* position: relative;
+  bottom: 15px; */
+  font-size: 2rem;
+  /* left: 315px;
+  bottom: 40px; */
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.24rem;
+}
+
+.card-child{
+  height: 260px;
+}
+.content{
+  margin-top: 0px;
+}
+
+.likebtn{
+  position: relative;
+  bottom: 15px;
+  /* font-size: 2rem; */
+  left: 310px;
+  bottom: 40px;
+}
+
+.stylebtn{
+ background-color: rgb(99, 115, 109);
+}
+
+.notStyle{
+background-color: black;
+}
